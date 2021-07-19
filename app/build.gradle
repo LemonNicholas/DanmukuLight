@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.anbetter.danmuku.demo"
-        minSdkVersion 23
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -32,7 +32,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':danmukulight')
 
-    implementation 'com.facebook.fresco.helper:fresco-helper:2.4.0'
+    implementation 'com.github.LemonNicholas:fresco-helper:2.5.0'
+//    implementation 'com.facebook.fresco.helper:fresco-helper:2.5.0'
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'androidx.appcompat:appcompat:1.2.0'
 }
